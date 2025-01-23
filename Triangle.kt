@@ -4,7 +4,7 @@ open class Triangle(_name: String) : Shape(_name) {
         TODO("Not yet implemented")
     }
 
-    override fun setDimensions(dimensions: Dimensionable) {
+    fun setDimensions(side1: Int, side2: Int, side3: Int): Triangle {
         TODO("Not yet implemented")
     }
 

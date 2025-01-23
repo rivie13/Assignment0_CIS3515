@@ -4,8 +4,9 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
         TODO("Not yet implemented")
     }
 
-    override fun setDimensions(dimensions: Dimensionable) {
-        TODO("Not yet implemented")
+    fun setDimensions(side1: Int)
+    {
+        super.setDimensions(side1, side1, side1)
     }
 
 }
