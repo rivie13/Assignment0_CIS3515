@@ -1,4 +1,5 @@
 interface Dimensionable {
     
-    fun printDimensions()
+    fun printDimensions(dimensions: Dimensionable)
+
 }
