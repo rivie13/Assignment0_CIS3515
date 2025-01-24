@@ -1,11 +1,11 @@
 open class Triangle(_name: String) : Shape(_name) {
 
-    var side1 = 0.0
-    var side2 = 0.0
-    var side3 = 0.0
+    open var side1 = 0.0
+    open var side2 = 0.0
+    open var side3 = 0.0
 
     override fun printDimensions(dimensions: Dimensionable) {
-        TODO("Not yet implemented")
+        println("Shape is: $name, with dimensions: side1: $side1, side2: $side2, side3: $side3")
     }
 
     fun setDimensions(side1: Double, side2: Double, side3: Double){

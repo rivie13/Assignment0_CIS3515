@@ -4,11 +4,10 @@ class Square(_name: String) : Shape(_name) {
     var height = 0.0
 
     override fun printDimensions(dimensions: Dimensionable) {
-        TODO("Not yet implemented")
+        println("Shape is: $name, with dimensions: length: $length and height: $height")
     }
 
     fun setDimensions(length: Double, height: Double) {
-        TODO("Not yet implemented")
         this.height = height
         this.length = length
     }

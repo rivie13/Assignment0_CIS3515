@@ -3,11 +3,10 @@ class Circle(_name: String) : Shape(_name) {
     var radius = 0.0
 
     override fun printDimensions(dimensions: Dimensionable) {
-        TODO("Not yet implemented")
+        println("Shape is: $name, with a radius of $radius")
     }
 
     fun setDimensions(radius: Double) {
-        TODO("Not yet implemented")
         this.radius = radius
     }
 
