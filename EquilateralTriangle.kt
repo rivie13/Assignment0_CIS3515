@@ -4,7 +4,7 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
         TODO("Not yet implemented")
     }
 
-    fun setDimensions(side1: Int)
+    fun setDimensions(side1: Double)
     {
         super.setDimensions(side1, side1, side1)
     }

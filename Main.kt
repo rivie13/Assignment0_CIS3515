@@ -1,3 +1,7 @@
 fun main() {
-    println("Hello world!")
+    var square = Square("square")
+    var circle = Circle("circle")
+    var triangle = Triangle("triangle")
+    var eqTriangle = EquilateralTriangle("eqTriangle")
+
 }

@@ -1,4 +1,4 @@
-class square(_name: String) : Shape(_name) {
+class Square(_name: String) : Shape(_name) {
 
     var length = 0.0
     var height = 0.0
@@ -16,7 +16,7 @@ class square(_name: String) : Shape(_name) {
     override fun getArea() : Double
     {
 
-        var area = 0.0
+        val area = length * height
 
         return area
     }
