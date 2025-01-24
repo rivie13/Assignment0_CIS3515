@@ -1,8 +1,8 @@
 fun main() {
-    var square = Square("square")
-    var circle = Circle("circle")
-    var triangle = Triangle("triangle")
-    var eqTriangle = EquilateralTriangle("eqTriangle")
+    val square = Square("square")
+    val circle = Circle("circle")
+    val triangle = Triangle("triangle")
+    val eqTriangle = EquilateralTriangle("eqTriangle")
 
     println("Please enter in height and length for square:")
     square.setDimensions(readln().toDouble(), readln().toDouble())
@@ -16,7 +16,7 @@ fun main() {
     println("Please enter in 1 side for an equilateral triangle: ")
     eqTriangle.setDimensions(readln().toDouble())
 
-    var shapeArray = arrayOf(square, circle, triangle, eqTriangle)
+    val shapeArray = arrayOf(square, circle, triangle, eqTriangle)
 
     for (shape in shapeArray) {
         shape.printDimensions(shape)

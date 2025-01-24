@@ -19,10 +19,8 @@ open class Triangle(_name: String) : Shape(_name) {
         return area
     }
 
-    fun getPerimeter(): Double {
-        var perimeter = 0.0
-
-        perimeter = side1 + side2 + side3
+    private fun getPerimeter(): Double {
+        val perimeter = side1 + side2 + side3
         return perimeter
     }
 
